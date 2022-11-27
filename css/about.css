@@ -1,0 +1,93 @@
+
+
+.about__img {
+  width: 23%;
+  bottom: -10rem;
+  z-index: 10;
+  top: 4%;
+  position: absolute;
+  left: 15%;
+  
+}
+
+.about__blob {
+  left: -3%;
+}
+
+svg.about__blob {
+  top: 3rem;
+  width: 60%;
+  position: absolute;
+  justify-self: center;
+  z-index: 9;
+}
+
+
+.about__right {
+  margin: 1rem 0 2rem;
+  top: 0;
+}
+
+.about__right .about__me {
+  margin-bottom: 1rem;
+}
+
+.about__right span.RAI {
+  font-style: italic;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .about__img {
+    width: 30%;
+    bottom: -10rem;
+    z-index: 10;
+    top: 4%;
+    position: absolute;
+    left: 10%;
+    
+  }
+
+  svg.about__blob {
+    top: 3rem;
+    width: 70%;
+    position: absolute;
+    justify-self: center;
+    z-index: 9;
+    left: -10%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    overflow: visible;
+  }
+
+  .about__img {
+    z-index: 10;
+    width: 50%;
+    position: relative;
+    top: -27rem;
+    display: block;
+    margin: 0 3rem 0 4rem;
+    
+    
+  }
+
+  svg.about__blob {
+    width: 120%;
+    position: absolute;
+    z-index: 9;
+    top: -25rem;
+    
+  }
+
+  .about__right {
+    margin: 1rem 0 2rem;
+    padding: 12rem 3rem 0 3rem;
+  }
+
+}
+
